@@ -14,10 +14,10 @@ Custom Domain – youtubeclone-p1.tk</li>
 **Workflow:**
 1) S3 Bucket Creation:
     Create a New Bucket:
-  Click on the "Create bucket" button.
-  Enter a unique name for your bucket.
-  Choose a region for your bucket. Choosing a region closest to your target audience is recommended   for better performance.
-  Click on "Create bucket" to create your S3 bucket.
+  - Click on the "Create bucket" button.
+  - Enter a unique name for your bucket.
+  - Choose a region for your bucket. Choosing a region closest to your target audience is recommended   for better performance.
+  - Click on "Create bucket" to create your S3 bucket.
 2) Configure Bucket Settings:
 Once the bucket is created, click on its name to open its settings.
 Configure the bucket for static website hosting:
@@ -25,8 +25,6 @@ Go to the "Properties" tab of your bucket.
 Scroll down to "Static website hosting" and click on "Edit".
 Choose "Use this bucket to host a website" and enter the index document (e.g., index.html).
 Click "Save changes" to save the configuration.
-  
-
 3) SSL Certificate with ACM
 
   <li>Region: us-east-1 (Northern Virginia)
