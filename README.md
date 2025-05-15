@@ -1,4 +1,4 @@
-** Deploy-Static-Website-using-S3-CloudFront-ACM-and-Route53 **
+**Deploy-Static-Website-using-S3-CloudFront-ACM-and-Route53**
 This project showcases how to deploy a static website securely using Amazon S3, CloudFront, ACM, and Route 53, all mapped to a custom domain: youtubeclone-p1.tk.
 Step 1: Create an index.html file. I wrote a code for youtube clone with basic html and css, in which I used to host that website using cloud.
 
