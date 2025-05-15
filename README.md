@@ -14,7 +14,7 @@ Custom Domain – youtubeclone-p1.tk</li>
 **Workflow:**
 1) S3 Bucket Creation:
     Create a New Bucket:
-  - Click on the "Create bucket" button.
+  1. Click on the "Create bucket" button.
   - Enter a unique name for your bucket.
   - Choose a region for your bucket. Choosing a region closest to your target audience is recommended   for better performance.
   - Click on "Create bucket" to create your S3 bucket.
