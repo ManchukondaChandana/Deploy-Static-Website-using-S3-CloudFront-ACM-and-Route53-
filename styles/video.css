@@ -1,0 +1,77 @@
+.clone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+
+}
+@media (max-width:750px) {
+    .clone{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:1000px) {
+    .clone{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:750px) and (max-width:999px) {
+    .clone{
+    
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+.thumbnail{
+    width:100%;
+    cursor: pointer;
+    
+}
+.video-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+}
+.channelpicture{
+    width: 36px;
+    height: 36px;
+    border-radius:18px;
+}
+.video-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.author-name,.views{
+    color: grey;
+    font-size:12px;
+    
+}
+.author-name{
+    margin-bottom: 4px;
+}
+.thumbnail-row{
+    position: relative;
+    margin-right: 10px;
+    
+}
+.video-time{
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+
+    font-weight: 500;
+    padding:4px;
+    font-size: 12px;
+}
+.video-title-link {
+    text-decoration: none;
+    color: black;
+  }
